@@ -4,26 +4,37 @@
 	<title></title>
 </head>
 <body>
-	<header>
-		<div id="contact">
-			<h3>Contact</h3>
-			<ul>
-				<li>Name</li>
-				<li>Email</li>
-				<li>Message</li>
-			</ul>
-		</div>
-		<div id="connect">
-		<h3>Connect with Me</h3>
-		<ul>
-			<li><a href="https://github.com/rangyabines"><img src="https://github.com/rangyabines/Basic-Portfolio/blob/master/assets/images/GitHub-Mark-64px.png" /></a></li>
-			<li><a href=""></li>
-		</ul>
-	</div>
-
+	<header class="menu">
+		<nav>
+			<a href="/about/">About</a> |
+			<a href="/css/">Portfolio</a> |
+			<a href="/js/">Contact</a> |
+		</nav>
 	</header>
+		<div class="container">
+			<section id="contact">
+				<h2>Contact</h2>
+				<form action="action_page.php">
+ 					Name:<br>
+  					<input type="text" name="firstname" value="John Smith"><br>
+  					Email:<br>
+ 					<input type="text" name="email" value="example@gmail.com"><br>
+ 					Message:<br>
+ 					<input type="text" name="message" value=""><br><br>
+  					<input type="submit" value="Submit">
+				</form>
+
+			</section>
+			<section id="connect-me">
+				<h2>Connect with Me</h2>
+				
+				<a href="https://github.com/rangyabines"><img alt="GitHub" src=" " /></a>
+				<a href="https://linkedin.com/rangyabines"><img alt="Rangy A" src=" " /></a>
+				<a href="https://stackoverflow.com"><img alt="StackOverflow" src=" " /></a>
+       	  	    
+			</section>
 	<footer>
-		
+		<p>&#169; Copyright 2016 Rangy Abines</p>
 	</footer>
 
 </body>
