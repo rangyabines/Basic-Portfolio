@@ -1,13 +1,44 @@
-body {background-color: #4aaaa5;
+/*body {background-color: #4aaaa5;
 
+}*/
+
+html {position: relative;
+			min-height: 100%;
+}
+
+body {margin: 0 0 100px; 
+			background-color: #4aaaa5;
+}
+
+.content { padding: 15px; 
+					box-sizing: border-box;
+					
+}
+
+footer {background-color: gray;
+				clear: both;
+				padding: 20px;
+				position: absolute;
+				bottom: 0;
+				width: 100%;
+
+
+}
+
+#foot {text-align: center;
+				font-size: 12px;
+				font-color: white;
 }
 
 .name {font-size: 20px;
 				background-color: white;
 				margin-right: 650px;	
-				margin-left: 300px;	
-				padding: 15px 10px 15px 10px;		
+				margin-left: 300px;		
 				font: black;
+				width: 15%;
+				padding: 10px 0 10px 0;
+				text-align: center;
+
 }
 
 .nav {position: absolute;
@@ -43,18 +74,9 @@ body {background-color: #4aaaa5;
 			
 }
 
-#logo {padding-top: 10px;}
-
-footer {background-color: gray;
-		clear: both;
-		padding: 10px;
-		
+#logo {padding-top: 10px;
 }
 
-#foot {text-align: center;
-				font-size: 12px;
-				font-color: white;
-}
 
 /* portfolio stylesheet */
 
@@ -86,7 +108,8 @@ form {
     width: 100%;
     max-width: 400px;
     padding-left: 10px; 
-    padding-bottom: 40px;
+    padding-bottom: 20px;
+    padding-top: 10px;
 }
 
 form input { 
@@ -101,5 +124,7 @@ form textarea {width: 100%;
 input[type=submit] {width: 60px;  
 										
 }
+
+.pronoun {padding-bottom: 2px;}
 
 
