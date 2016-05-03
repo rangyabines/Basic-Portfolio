@@ -1,26 +1,19 @@
-/*body {background-color: #4aaaa5;
+body {background-color: #4aaaa5;
 
-}*/
-
-html {position: relative;
-			min-height: 100%;
 }
 
-body {margin: 0 0 100px; 
-			background-color: #4aaaa5;
-}
-
-.content { padding: 15px; 
+/*.content { padding: 15px; 
 					box-sizing: border-box;
-					
-}
+
+					 
+}*/
 
 footer {background-color: gray;
 				clear: both;
 				padding: 20px;
-				position: absolute;
-				bottom: 0;
 				width: 100%;
+				bottom: 0px;
+				position: fixed;
 
 
 }
@@ -30,8 +23,15 @@ footer {background-color: gray;
 				font-color: white;
 }
 
+.head-menu {background-color: #ffffff;
+						border-color: #cccccc;
+
+
+
+}
+
 .name {font-size: 20px;
-				background-color: white;
+				background-color: #4aaaa5;
 				margin-right: 650px;	
 				margin-left: 300px;		
 				font: black;
@@ -41,9 +41,10 @@ footer {background-color: gray;
 
 }
 
+
 .nav {position: absolute;
 			right: 200px;
-			top: 35px;
+			top: 30px;
 
 }
 
@@ -60,10 +61,13 @@ footer {background-color: gray;
 
 
 #bio-image {padding-bottom: 40px;
-						padding-right: 15px;
+						padding-right: 10px;
 						padding-top: 5px;
+						padding-left: 10px;
 						float: left;
 						margin: 0px 0 5px 10px;
+						height: 150px;
+						width: 190px;
 
 }
 
@@ -75,6 +79,14 @@ footer {background-color: gray;
 }
 
 #logo {padding-top: 10px;
+}
+
+#background {background-image: url("./assets/images/purty_wood.png");
+   					position: absolute;
+   					height: 100%;
+   					width: 100%;
+
+
 }
 
 
@@ -117,14 +129,15 @@ form input {
     height: 30px;
 }
 
+button {background-color: green;
+				border: 1px;
+				width: 50pxpx;
+				height: 35px;
+}
+
 form textarea {width: 100%;
 
 }
 
-input[type=submit] {width: 60px;  
-										
-}
-
-.pronoun {padding-bottom: 2px;}
 
 
