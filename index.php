@@ -1,0 +1,1 @@
+<?php basic-portfolio("index.html"); ?>
