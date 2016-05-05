@@ -2,18 +2,18 @@ body {background-color: #4aaaa5;
 
 }
 
-/*.content { padding: 15px; 
-					box-sizing: border-box;
+.content { overflow: hidden;
 
 					 
-}*/
+}
 
 footer {background-color: gray;
 				clear: both;
-				padding: 20px;
+				padding: 10px;
 				width: 100%;
 				bottom: 0px;
 				position: fixed;
+				left: 0;
 
 
 }
@@ -25,6 +25,10 @@ footer {background-color: gray;
 
 .head-menu {background-color: #ffffff;
 						border-color: #cccccc;
+						position: fixed;
+						left: 0;
+						top: 0;
+						width: 100%;
 
 
 
@@ -33,109 +37,126 @@ footer {background-color: gray;
 .name {font-size: 20px;
 				background-color: #4aaaa5;
 				margin-right: 650px;	
-				margin-left: 300px;		
+				margin-left: 150px;	
+				margin-bottom: 0;	
 				font: black;
 				width: 15%;
-				padding: 10px 0 10px 0;
+				padding: 10px 0 25px 0;
 				text-align: center;
 
 }
 
 
 .nav {position: absolute;
-			right: 200px;
+			right: 198px;
 			top: 30px;
 
 }
 
 #about-me {background-color: gray;
-			float: left;
-			width: 40%;
-			height: 50%;
-			margin-left: 150px;
-			margin-bottom: 210px;
-			padding-left: 40px;
-			padding-right: 30px
+			position: absolute;
+			width: 560px;
+			height: 400px;
+			left: 0;
+			margin: 100px 0 0 150px;
+
+}
+
+#image { height: 200px; 
+					width: 200px;
+					padding-left: 5px;
+					padding-top: 10px;
+					float: left;
+}
+
+.me {padding-left: 20px;
 
 }
 
 
-#bio-image {padding-bottom: 40px;
-						padding-right: 10px;
-						padding-top: 5px;
-						padding-left: 10px;
-						float: left;
+hr {width: 95%;
+
+}
+
+#bio-image {height: 135px;
+						width: 180px;
+						padding: 5px 10px 10px 25px;
 						margin: 0px 0 5px 10px;
-						height: 150px;
-						width: 190px;
+
 
 }
 
 #connect-me {background-color: white;
-			float: right;
-			margin-right: 150px;
-			padding: 0px 40px 20px 20px;
+						margin: 100px 180px 0 0;
+						position: absolute;
+						right: 0;
+						width: 200px;
+						text-align: center;
+				
 			
 }
 
 #logo {padding-top: 10px;
 }
 
-#background {background-image: url("./assets/images/purty_wood.png");
-   					position: absolute;
-   					height: 100%;
+/*#background {background-image: url("./assets/images/purty_wood.png");
+   					position: relative;
+   					height: 470px;
    					width: 100%;
+   					left: 0;
+   					
 
 
 }
-
+*/
 
 /* portfolio stylesheet */
 
 #portfolio {background-color: gray;
-			float: left;
-			width: 40%;
-			height: 50%;
-			margin-left: 150px;
-			margin-bottom: 210px;
-			padding-left: 40px;
-			padding-right: 30px;
+			position: absolute;
+			width: 480px;
+			height: 580px;
+			left: 0;
+			margin: 100px 0 0 150px;
 }
+
+.port {padding-left: 20px;
+
+}
+
 
 /* contact form stylesheet */
 
 #contact {background-color: gray;
-			float: left;
-			width: 40%;
-			height: 50%;
-			margin-left: 150px;
-			margin-bottom: 210px;
-			padding-left: 40px;
-			padding-right: 30px;
-			padding-bottom: 40px;
+			position: absolute;
+			width: 550px;
+			height: 450px;
+			left: 0;
+			margin: 100px 0 0 150px;
 }
 
-form { 
-    min-width: 200px;
-    width: 100%;
-    max-width: 400px;
-    padding-left: 10px; 
-    padding-bottom: 20px;
-    padding-top: 10px;
+.con{padding-left: 20px;
+
+}
+
+.form {padding-left: 20px;
+			
+			
 }
 
 form input { 
-    width: 100%;
+    width: 400px;
     height: 30px;
+    
 }
 
 button {background-color: green;
 				border: 1px;
-				width: 50pxpx;
+				width: 50px;
 				height: 35px;
 }
 
-form textarea {width: 100%;
+form textarea {width: 400px;
 
 }
 
