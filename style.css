@@ -43,6 +43,7 @@ footer {background-color: gray;
 				width: 15%;
 				padding: 10px 0 25px 0;
 				text-align: center;
+				font-family: 'Georgia', Times, Times New Roman, serif;
 
 }
 
@@ -58,7 +59,7 @@ footer {background-color: gray;
 			width: 560px;
 			height: 400px;
 			left: 0;
-			margin: 100px 0 0 150px;
+			margin: 40px 0 0 144px;
 
 }
 
@@ -70,6 +71,7 @@ footer {background-color: gray;
 }
 
 .me {padding-left: 20px;
+		font-family: 'Georgia', Times, Times New Roman, serif;
 
 }
 
@@ -78,16 +80,9 @@ hr {width: 95%;
 
 }
 
-#bio-image {height: 135px;
-						width: 180px;
-						padding: 5px 10px 10px 25px;
-						margin: 0px 0 5px 10px;
-
-
-}
 
 #connect-me {background-color: white;
-						margin: 100px 180px 0 0;
+						margin: 40px 180px 0 0;
 						position: absolute;
 						right: 0;
 						width: 200px;
@@ -99,30 +94,66 @@ hr {width: 95%;
 #logo {padding-top: 10px;
 }
 
-/*#background {background-image: url("./assets/images/purty_wood.png");
+#background {background-image: url("./assets/images/purty_wood.png");
    					position: relative;
-   					height: 470px;
+   					height: 500px;
    					width: 100%;
    					left: 0;
-   					
-
+   					margin-top: 68px;
 
 }
-*/
+
 
 /* portfolio stylesheet */
 
 #portfolio {background-color: gray;
 			position: absolute;
-			width: 480px;
-			height: 580px;
+			width: 470px;
+			height: 560px;
 			left: 0;
-			margin: 100px 0 0 150px;
+			margin: 20px 0 0 144px;
 }
 
 .port {padding-left: 20px;
 
 }
+
+#bio-image {height: 130px;
+						width: 170px;
+						position: relative;
+						left: 0;
+						padding-left: 40px;
+
+
+}
+
+
+/*.head-image {position: relative;
+							padding-left: 15px;
+							width: 350px;
+							height: 150px;
+							display: inline;
+
+}
+
+#over-image {position: absolute;
+							top: 10;
+							left: 5;
+							width: 40px;
+
+}
+#over-image span { color: white; 
+    		letter-spacing: -1px;  
+   			padding: 10px;
+
+}
+
+#over-image span.spacer {padding: 0 5px;
+						background: none;
+
+}*/
+
+
 
 
 /* contact form stylesheet */
@@ -132,7 +163,7 @@ hr {width: 95%;
 			width: 550px;
 			height: 450px;
 			left: 0;
-			margin: 100px 0 0 150px;
+			margin: 40px 0 0 144px;
 }
 
 .con{padding-left: 20px;
@@ -150,7 +181,7 @@ form input {
     
 }
 
-button {background-color: green;
+button {background-color: white;
 				border: 1px;
 				width: 50px;
 				height: 35px;
