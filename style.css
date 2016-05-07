@@ -7,7 +7,7 @@ body {background-color: #4aaaa5;
 					 
 }
 
-footer {background-color: gray;
+footer {background-color: white;
 				clear: both;
 				padding: 10px;
 				width: 100%;
@@ -20,7 +20,7 @@ footer {background-color: gray;
 
 #foot {text-align: center;
 				font-size: 12px;
-				font-color: white;
+				color: #777777;
 }
 
 .head-menu {background-color: #ffffff;
@@ -34,17 +34,22 @@ footer {background-color: gray;
 
 }
 
-.name {font-size: 20px;
+.name {font-size: 25px;
 				background-color: #4aaaa5;
 				margin-right: 650px;	
 				margin-left: 150px;	
 				margin-bottom: 0;	
 				margin-top: 0;
-				font: black;
+				color: #777777;
 				width: 15%;
-				padding: 10px 0 42px 0;
+				padding: 15px 0 42px 0;
 				text-align: center;
 				font-family: 'Georgia', Times, Times New Roman, serif;
+
+}
+
+.name:hover {background-color: #FFA500;
+							text-decoration: none;
 
 }
 
@@ -53,6 +58,10 @@ footer {background-color: gray;
 			right: 198px;
 			top: 30px;
 
+}
+
+a:hover {background-color: 	#FFA500;
+					text-decoration: none;
 }
 
 #about-me {background-color: gray;
@@ -97,10 +106,10 @@ hr {width: 95%;
 
 #background {background-image: url("./assets/images/purty_wood.png");
    					position: relative;
-   					height: 500px;
+   					height: 570px;
    					width: 100%;
    					left: 0;
-   					margin-top: 68px;
+   					margin-top: 79px;
 
 }
 
@@ -110,9 +119,9 @@ hr {width: 95%;
 #portfolio {background-color: gray;
 			position: absolute;
 			width: 470px;
-			height: 560px;
+			height: 520px;
 			left: 0;
-			margin: 20px 0 0 144px;
+			margin: 40px 0 0 144px;
 			
 }
 
@@ -128,59 +137,64 @@ hr {width: 95%;
 }
 
 .hangman {position: absolute;
-					background-color: green;
+					background-color: white;
 					width: 132px;
 					height: 10px;
 					padding: 20px;
 					margin-left: 183px;
-					margin-top: 170px;
+					margin-top: 190px;
 					left: 0;
 					text-align: center;
+					color: #777777;
 }
 
 .rpg {position: absolute;
-					background-color: green;
+					background-color: white;
 					width: 132px;
 					height: 10px;
 					padding: 20px;
 					margin-left: 396px;
-					margin-top: 170px;
+					margin-top: 190px;
 					left: 0;
 					text-align: center;
+					color: #777777;
 }
 
 .trivia {position: absolute;
-					background-color: green;
+					background-color: white;
 					width: 132px;
 					height: 10px;
 					padding: 20px;
 					margin-left: 183px;
-					margin-top: 304px;
+					margin-top: 324px;
 					left: 0;
 					text-align: center;
+					color: #777777;
 }
 
 .rutgers {position: absolute;
-					background-color: green;
+					background-color: white;
 					width: 132px;
 					height: 10px;
 					padding: 20px;
 					margin-left: 396px;
-					margin-top: 304px;
+					margin-top: 324px;
 					left: 0;
 					text-align: center;
+					color: #777777;
 }
 
 
 .game {position: absolute;
-					background-color: green;
+					background-color: white;
 					width: 132px;
 					height: 10px;
 					padding: 20px;
 					margin-left: 183px;
-					margin-top: 440px;
+					margin-top: 460px;
 					left: 0;
 					text-align: center;
+					color: #777777;
 }
 
 #contact {background-color: gray;
@@ -207,6 +221,8 @@ button {background-color: white;
 				width: 50px;
 				height: 35px;
 }
+
+.button:hover {background-color: yellow;}
 
 form textarea {width: 400px;
 }
