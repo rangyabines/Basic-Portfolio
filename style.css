@@ -39,9 +39,10 @@ footer {background-color: gray;
 				margin-right: 650px;	
 				margin-left: 150px;	
 				margin-bottom: 0;	
+				margin-top: 0;
 				font: black;
 				width: 15%;
-				padding: 10px 0 25px 0;
+				padding: 10px 0 42px 0;
 				text-align: center;
 				font-family: 'Georgia', Times, Times New Roman, serif;
 
@@ -112,6 +113,7 @@ hr {width: 95%;
 			height: 560px;
 			left: 0;
 			margin: 20px 0 0 144px;
+			
 }
 
 .port {padding-left: 20px;
@@ -123,40 +125,63 @@ hr {width: 95%;
 						position: relative;
 						left: 0;
 						padding-left: 40px;
+}
 
+.hangman {position: absolute;
+					background-color: green;
+					width: 132px;
+					height: 10px;
+					padding: 20px;
+					margin-left: 183px;
+					margin-top: 170px;
+					left: 0;
+					text-align: center;
+}
 
+.rpg {position: absolute;
+					background-color: green;
+					width: 132px;
+					height: 10px;
+					padding: 20px;
+					margin-left: 396px;
+					margin-top: 170px;
+					left: 0;
+					text-align: center;
+}
+
+.trivia {position: absolute;
+					background-color: green;
+					width: 132px;
+					height: 10px;
+					padding: 20px;
+					margin-left: 183px;
+					margin-top: 304px;
+					left: 0;
+					text-align: center;
+}
+
+.rutgers {position: absolute;
+					background-color: green;
+					width: 132px;
+					height: 10px;
+					padding: 20px;
+					margin-left: 396px;
+					margin-top: 304px;
+					left: 0;
+					text-align: center;
 }
 
 
-/*.head-image {position: relative;
-							padding-left: 15px;
-							width: 350px;
-							height: 150px;
-							display: inline;
-
+.game {position: absolute;
+					background-color: green;
+					width: 132px;
+					height: 10px;
+					padding: 20px;
+					margin-left: 183px;
+					margin-top: 440px;
+					left: 0;
+					text-align: center;
 }
-
-#over-image {position: absolute;
-							top: 10;
-							left: 5;
-							width: 40px;
-
-}
-#over-image span { color: white; 
-    		letter-spacing: -1px;  
-   			padding: 10px;
-
-}
-
-#over-image span.spacer {padding: 0 5px;
-						background: none;
-
-}*/
-
-
-
-
-/* contact form stylesheet */
 
 #contact {background-color: gray;
 			position: absolute;
@@ -167,18 +192,14 @@ hr {width: 95%;
 }
 
 .con{padding-left: 20px;
-
 }
 
-.form {padding-left: 20px;
-			
-			
+.form {padding-left: 20px;					
 }
 
 form input { 
     width: 400px;
-    height: 30px;
-    
+    height: 30px;    
 }
 
 button {background-color: white;
@@ -188,7 +209,6 @@ button {background-color: white;
 }
 
 form textarea {width: 400px;
-
 }
 
 
